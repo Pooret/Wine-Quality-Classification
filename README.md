@@ -13,7 +13,7 @@ I use a blending strategy that combines several classifiers that are evaluated b
 
 <p align="center">
   <figure>
-    <img src=https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/EDA%20scatter%20plots.png alt="drawing" width=600>
+    <img src="https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/red_wine_results/stacking_dark_svm.png" alt="drawing" width=600>
     <figcaption alighn = 'center'><b>Fig.1</b> - Decicion boundary for a stacking classifier model with SVC(kernel='rbf') as a meta estimator</figcaption>
   </figure>
 </p>
