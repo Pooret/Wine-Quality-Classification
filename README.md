@@ -13,11 +13,20 @@ I use a blending strategy that combines several classifiers that are evaluated b
 
 <p align="center">
   <figure>
-    <img src="https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/red_wine_results/stacking_dark_svm.png" alt="drawing" width=600>
+    <img src="https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/red_wine_results/stacking_dark_svm.png" alt="drawing" width=500>
     <figcaption alighn = 'center'><b>Fig.1</b> - Decicion boundary for a stacking classifier model with SVC(kernel='rbf') as a meta estimator</figcaption>
   </figure>
 </p>
   
   
+## Results
+The model for the red wines as shown above outperforms the other classifiers in its ROC AUC performance on the test data. The stacking classifier is computationally more expensive, however, which is the trade-off that comes with it's potential peformance boost.
+
+<p align="center">
+  <figure>
+    <img src="https://raw.githubusercontent.com/Pooret/Wine-Quality-Classification/main/images/red_wine_results/red%20wine%20classifiers%20all.png" alt="drawing" width=400>
+    <figcaption alighn = 'center'><b>Fig.2</b> - ROC_AUC test scores for red wines classifiers</figcaption>
+  </figure>
+</p>
   
  
