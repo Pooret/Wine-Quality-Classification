@@ -10,11 +10,14 @@ My hypothesis is that the physicochemical properties of a wine (e.g. pH and alco
 ## Strategy
 I use a blending strategy that combines several classifiers that are evaluated by their decision boundaries to create a decision boundary that best captures the class separation. 
 
-<figure>
+
 <p align="center">
-  <img src="https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/white_wine_results/SVC%20decision%20boundary%20(final%20est).png" alt="drawing" width=400>
+  <figure>
+    <img src="https://github.com/Pooret/Wine-Quality-Classification/blob/main/images/white_wine_results/SVC%20decision%20boundary%20(final%20est).png" alt="drawing" width=600>
+    <figcaption alighn = 'center'><b>Fig.1</b> - Decicion boundary for a stacking classifier model with SVC(kernel='rbf') as a meta estimator</figcaption>
+  </figure>
 </p>
   
-  <figcaption alighn = 'center'><b>Fig.1</b> - Decicion boundary for a stacking classifier model with SVC(kernel='rbf') as a meta estimator</figcaption>
   
-  </figure>
+  
+ 
