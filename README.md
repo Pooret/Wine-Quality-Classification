@@ -5,7 +5,7 @@ Vinho verde is a medium-alcohol wine from the Minho (northwest) region of Portug
 
 In this repo, I am predicting the quality of Vinho Verde wines to be of either low or high quality given the physicochemical components of wines that are introduced into the product during the wine-making process.  
 
-My hypothesis is that the physicochemical properties of a wine (e.g. pH and alcohol content) which can be controlled at the winemaking stage, can be used to predict the overall quality of the wine. If this hypothesis is correct, then we can figure out which of the wine’s properties are most important in optimizing the output of high quality wines by a winemaker.
+Given the physicochemical properties of a wine (e.g. pH and alcohol content), which can be controlled at the winemaking stage, along with the wine ratings, it should be possible to predict the overall quality of the wine. If this hypothesis is correct, then we can figure out which of the wine’s properties are most important in optimizing the output of high quality wines by a winemaker.
 
 ## Strategy
 I use a blending strategy that combines several classifiers that are evaluated by their decision boundaries to create a decision boundary that best captures the class separation. 
