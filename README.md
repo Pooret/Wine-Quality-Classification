@@ -188,7 +188,7 @@ For white wines, the model predicts that alcohol is the most important, followed
 
 The stacking models were used because they can boost the performance of a model. And while that is seen with the white wines dataset, they have 10-100x longer fit times and tend to overfit the data. If I were to present this to my client, I would need to make sure that these are issues that need to be addressed. It would be feasible if a 3% increase in the precision score of the model used would forecast profits that justify the operating costs.
 
-Next Steps
+Next Steps  
   ● Apply a neural network and see how it compares  
   ● Review feature importances for white wines model  
   ● Improve model precision scores for red wines  
